@@ -1,0 +1,10 @@
+:root{
+  --color-primary:#0A2540;
+  --color-accent:#F39C12;
+}
+
+/* Typography helpers for blog content */
+.prose p{margin-bottom:1rem; line-height:1.7;}
+
+/* Accessible focus */
+:focus { outline: 3px solid var(--color-accent); outline-offset: 2px; }
